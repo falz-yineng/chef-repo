@@ -38,4 +38,5 @@ script "install_php_from_compiled_source" do
     make
     make install
   EOH
+  not_if "php -v | grep #{node['php-src-install']['version']}"
 end
