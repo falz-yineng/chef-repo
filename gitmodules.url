@@ -1,0 +1,16 @@
+git://github.com/opscode-cookbooks/yum.git
+git://github.com/opscode-cookbooks/php.git
+git://github.com/opscode-cookbooks/apache2.git
+git://github.com/opscode-cookbooks/build-essential.git
+git://github.com/opscode-cookbooks/git.git
+git://github.com/opscode-cookbooks/openssl.git
+git://github.com/opscode-cookbooks/ssh_known_hosts.git
+git://github.com/opscode-cookbooks/vim.git
+git://github.com/opscode-cookbooks/mysql.git
+git://github.com/opscode-cookbooks/iptables.git
+git://github.com/opscode-cookbooks/dmg.git
+git://github.com/opscode-cookbooks/runit.git
+git://github.com/opscode-cookbooks/windows.git
+git://github.com/opscode-cookbooks/chef_handler.git
+git://github.com/opscode-cookbooks/xml.git
+https://github.com/L2G/timezone-ii

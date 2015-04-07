@@ -21,7 +21,7 @@ bash 'install_phpunit' do
    group 'root'
    code <<-EOH
       cd #{Chef::Config[:file_cache_path]}
-      chmod +x #{phar_file}
+      chmod 755 #{phar_file}
       cp -a #{phar_file} #{node['phpunit']['install_dir']}/#{install_file_name}
    EOH
 end

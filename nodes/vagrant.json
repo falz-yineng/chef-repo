@@ -1,0 +1,11 @@
+{
+	"tz": "Asia/Tokyo",
+	"run_list": [
+		"recipe[build-essential]",
+		"recipe[timezone-ii]",
+		"recipe[base]",
+		"recipe[php-src-install]",
+		"recipe[phpunit]",
+		"recipe[ruby-src-install]"
+	]
+}
