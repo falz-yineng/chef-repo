@@ -13,4 +13,7 @@ default['ruby-src-install']['major_version'] = default['ruby-src-install']['vers
 default['ruby-src-install']['url'] = "http://cache.ruby-lang.org/pub/ruby/#{default['ruby-src-install']['major_version']}"
 default['ruby-src-install']['checksum'] = '5a4de38068eca8919cb087d338c0c2e3d72c9382c804fb27a'
 
-default['ruby-src-install']['gem_packages'] = %w{bundler}
+default['ruby-src-install']['gem_packages'] = %w{
+	bundler
+	rspec
+}
