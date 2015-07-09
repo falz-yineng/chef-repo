@@ -4,4 +4,6 @@ default['base']['packages'] = %w{
   strace
   zip
   unzip
+  htop
+  nkf
 }
