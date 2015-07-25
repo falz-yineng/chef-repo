@@ -1,10 +1,10 @@
-# CHANGELOG for perl-Net-IP
+# CHANGELOG for network-tools
 
-This file is used to list changes made in each version of perl-Net-IP.
+This file is used to list changes made in each version of network-tools.
 
 ## 0.1.0:
 
-* Initial release of perl-Net-IP
+* Initial release of network-tools
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
