@@ -12,6 +12,11 @@ package 'tmux' do
 	action :remove
 end
 
+# 必要なパッケージをインストールする
+node['tmux']['packages'].each do |pkg|
+	package pkg
+end
+
 # libevent 2.0系をインストールする
 tarball = "libevent-#{node['tmux']['libevent']['full_version']}.tar.gz"
 remote_file "#{Chef::Config['file_cache_path']}/#{tarball}" do
