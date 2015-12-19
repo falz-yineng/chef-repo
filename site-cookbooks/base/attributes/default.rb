@@ -6,4 +6,5 @@ default['base']['packages'] = %w{
   unzip
   htop
   nkf
+  xz
 }
