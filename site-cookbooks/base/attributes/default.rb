@@ -8,3 +8,7 @@ default['base']['packages'] = %w{
   nkf
   xz
 }
+
+default['base']['recipes'] = %w{
+  yum-epel
+}

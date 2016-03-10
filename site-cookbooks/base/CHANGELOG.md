@@ -3,6 +3,10 @@ base CHANGELOG
 
 This file is used to list changes made in each version of the base cookbook.
 
+0.3.0
+-----
+- add installing `yum-epel`
+
 0.2.0
 -----
 - add installing `strace`

@@ -11,3 +11,8 @@
 node['base']['packages'].each do |pkg|
   package pkg
 end
+
+# レシピをインクルードする
+node['base']['recipes'].each do |recipe|
+  include_recipe recipe
+end
