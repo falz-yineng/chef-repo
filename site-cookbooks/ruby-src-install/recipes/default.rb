@@ -28,8 +28,8 @@ end
 configure_options = node['ruby-src-install']['configure_options'].join(' ')
 
 execute "build-ruby" do
-	cwd #{cache_path}
 	command <<-EOF
+		cd #{cache_path}
 		tar xfz ruby-#{version}.tar.gz 
 		cd ruby-#{version}
 		./configure #{configure_options} 
