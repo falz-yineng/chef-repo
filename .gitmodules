@@ -49,3 +49,6 @@
 [submodule "cookbooks/yum-epel"]
 	path = cookbooks/yum-epel
 	url = git://github.com/opscode-cookbooks/yum-epel.git
+[submodule "cookbooks/yum-remi-chef"]
+	path = cookbooks/yum-remi-chef
+	url = https://github.com/chef-cookbooks/yum-remi-chef.git

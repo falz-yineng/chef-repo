@@ -14,3 +14,4 @@ git://github.com/opscode-cookbooks/windows.git
 git://github.com/opscode-cookbooks/chef_handler.git
 git://github.com/opscode-cookbooks/xml.git
 https://github.com/L2G/timezone-ii
+https://github.com/chef-cookbooks/yum-remi-chef
