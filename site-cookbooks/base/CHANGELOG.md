@@ -3,6 +3,10 @@ base CHANGELOG
 
 This file is used to list changes made in each version of the base cookbook.
 
+0.4.0
+-----
+- add installing `yum-remi-chef`
+
 0.3.0
 -----
 - add installing `yum-epel`

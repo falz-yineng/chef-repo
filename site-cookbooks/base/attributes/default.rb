@@ -11,4 +11,5 @@ default['base']['packages'] = %w{
 
 default['base']['recipes'] = %w{
   yum-epel
+  yum-remi-chef::remi
 }
