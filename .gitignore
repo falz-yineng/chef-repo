@@ -2,4 +2,3 @@
 *.tmp
 Vagrantfile
 .chef
-/cookbooks
