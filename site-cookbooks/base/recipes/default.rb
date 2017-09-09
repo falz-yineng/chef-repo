@@ -8,9 +8,7 @@
 #
 
 # パッケージをインストールする
-node['base']['packages'].each do |pkg|
-  package pkg
-end
+package node['base']['packages']
 
 # レシピをインクルードする
 node['base']['recipes'].each do |recipe|
