@@ -8,10 +8,10 @@ default['ruby-src-install']['required_packages'] = %w{
 	zlib-devel
 }
 default['ruby-src-install']['configure_options'] = %w{ }
-default['ruby-src-install']['version'] = '2.1.5'
+default['ruby-src-install']['version'] = '2.4.1'
 default['ruby-src-install']['major_version'] = default['ruby-src-install']['version'].split('.')[0..1].join('.')
 default['ruby-src-install']['url'] = "http://cache.ruby-lang.org/pub/ruby/#{default['ruby-src-install']['major_version']}"
-default['ruby-src-install']['checksum'] = '5a4de38068eca8919cb087d338c0c2e3d72c9382c804fb27a'
+default['ruby-src-install']['checksum'] = 'a330e10d5cb5e53b3a0078326c5731888bb55e32c4abfeb27d9e7f8e5d000250'
 
 default['ruby-src-install']['gem_packages'] = %w{
 	bundler
